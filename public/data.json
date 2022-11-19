@@ -1,0 +1,74 @@
+[
+    {
+      "id": "6377b39136051fe66e39907e",
+      "img": "images/img-1.jpg",
+      "price": 37154,
+      "name": "Black Sports Car"
+    },
+    {
+      "id": "6377b3910d8347cfd42a2daa",
+      "img": "images/img-2.jpg",
+      "price": 28447,
+      "name": "Sports Car in Highway"
+    },
+    {
+      "id": "6377b391d5de03448b0a7ea1",
+      "img": "images/img-3.jpg",
+      "price": 33554,
+      "name": "Blue Jeep"
+    },
+    {
+      "id": "6377b39109c26787f30741c5",
+      "img": "images/img-4.jpg",
+      "price": 39578,
+      "name": "Blue Sports Car"
+    },
+    {
+      "id": "6377b3910f0f1ee4d787c08a",
+      "img": "images/img-5.jpg",
+      "price": 27048,
+      "name": "Grey Metallic Jeep"
+    },
+    {
+      "id": "6377b39153759a3afe177e0e",
+      "img": "images/img-6.jpg",
+      "price": 28810,
+      "name": "Car with Xenon Light"
+    },
+    {
+      "id": "6377b3911bcb8e873eda742a",
+      "img": "images/img-7.jpg",
+      "price": 28020,
+      "name": "Red Luxury Car"
+    },
+    {
+      "id": "6377b39178d05eeb3b0346db",
+      "img": "images/img-8.jpg",
+      "price": 25789,
+      "name": "Silver Metallic Sports Car"
+    },
+    {
+      "id": "6377b391bb5804182116ea3e",
+      "img": "images/img-9.jpg",
+      "price": 31918,
+      "name": "White Luxury Car"
+    },
+    {
+      "id": "6377b391d01a6fb697f5de9e",
+      "img": "images/img-10.jpg",
+      "price": 27407,
+      "name": "White Sports Car"
+    },
+    {
+      "id": "6377b3916f53d92ea97b48e3",
+      "img": "images/img-11.jpg",
+      "price": 27066,
+      "name": "White Jeep"
+    },
+    {
+      "id": "6377b391f9b315be14daacbb",
+      "img": "images/img-12.jpg",
+      "price": 32991,
+      "name": "Yellow Sports Car"
+    }
+  ]

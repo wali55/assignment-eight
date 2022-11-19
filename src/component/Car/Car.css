@@ -1,0 +1,14 @@
+.car{
+    height: 500px;
+    border: 1px solid #B01E68;;
+    border-radius: 8px;
+    width: 290px;
+}
+
+.car img{
+    width: 280px;
+    height: 200px;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 5px;
+    margin-top: 5px;
+}

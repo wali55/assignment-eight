@@ -7,3 +7,18 @@
 .cart h2{
     font-weight: normal;
 }
+
+.chose-one-btn, .chose-again-btn{
+    display: block;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-color: #B01E68;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.chose-one-btn:hover, .chose-again-btn:hover{
+    background-color: #5e0832;
+}

@@ -14,8 +14,14 @@ const Shop = () => {
     }, [])
 
     const handleClick = (name) => {
-        const newCart = [...cart, [name]];
+        const newCart = [...cart, name];
         setCart(newCart);  
+    }
+
+    const choseForMe = (name) => {
+        const newCart = [];
+        newCart.push(name[name.length - 1]);
+        setCart(newCart);
     }
     
     return (
@@ -32,6 +38,7 @@ const Shop = () => {
             <div className="cart-container">
                 <Cart
                 cart={cart}
+                choseForMe={choseForMe}
                 ></Cart>
             </div>
         </div>

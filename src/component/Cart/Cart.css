@@ -1,0 +1,9 @@
+.cart{
+    margin-left: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.cart h2{
+    font-weight: normal;
+}

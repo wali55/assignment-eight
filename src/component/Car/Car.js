@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Car.css'
 
@@ -5,7 +7,14 @@ const Car = ({car}) => {
     return (
         <div className="car">
             <img src={car.img} alt="" />
-            <h3>{car.name}</h3>
+            <div className="car-info">
+                <h3>{car.name}</h3>
+                <p>Price: ${car.price}</p>
+            </div>
+            <button className="btn-cart">
+                <p>Add to Cart</p>
+                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+            </button>
         </div>
     );
 };

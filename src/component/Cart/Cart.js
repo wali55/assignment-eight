@@ -1,7 +1,7 @@
 
 import './Cart.css'
 
-const Cart = ({cart, choseForMe}) => {
+const Cart = ({cart, choseForMe, choseAgain}) => {
 
     return (
         <div className="cart">
@@ -12,7 +12,7 @@ const Cart = ({cart, choseForMe}) => {
                 )
             }
             <button onClick={() => choseForMe(cart)} className="chose-one-btn">Chose One for Me</button>
-            <button className="chose-again-btn">Chose Again</button>
+            <button onClick={choseAgain} className="chose-again-btn">Chose Again</button>
         </div>
     );
 };

@@ -14,13 +14,20 @@ const Shop = () => {
     }, [])
 
     const handleClick = (name) => {
-        const newCart = [...cart, name];
-        setCart(newCart);  
+        if(cart.indexOf(name) === -1){
+            const newCart = [...cart, name];
+            setCart(newCart); 
+        }
     }
 
     const choseForMe = (name) => {
         const newCart = [];
         newCart.push(name[name.length - 1]);
+        setCart(newCart);
+    }
+
+    const choseAgain = () => {
+        const newCart = [];
         setCart(newCart);
     }
     
@@ -39,6 +46,7 @@ const Shop = () => {
                 <Cart
                 cart={cart}
                 choseForMe={choseForMe}
+                choseAgain={choseAgain}
                 ></Cart>
             </div>
         </div>
